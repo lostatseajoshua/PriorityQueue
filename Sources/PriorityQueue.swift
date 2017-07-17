@@ -13,7 +13,7 @@
 
  A `PriorityQueue` is efficient where an element of a collection with the highest priority is to be accessed one at a time.
 
- The `PriorityQueue` provides quick access the top highest priority element.
+ The `PriorityQueue` provides quick access the highest priority element.
  An element with high priority is served before an element with low priority. If two elements have the same priority, they are served according to their order in the queue.
 
  The `PriorityType` data structure is backed arrays that hold alike priority elements together. The number of arrays is equal to 3 corresponding to the number of cases of in `Priority` enum. This adds the ability to add like priority elements by index and have like elements being served in a specific order as well.
