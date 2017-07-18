@@ -25,6 +25,8 @@ public class PriorityQueue {
     fileprivate var defaultPriorityCollection = [PriorityType]()
     fileprivate var lowPriorityCollection = [PriorityType]()
 
+    public init() {}
+
     /// Number of total elements in the queue.
     public var count: Int {
         return highPriorityCollection.count + defaultPriorityCollection.count + lowPriorityCollection.count
